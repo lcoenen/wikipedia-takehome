@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>What's on wiki!</title>
+		<meta charset="UTF-8" />
+		<script src="index.js"></script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>What's on wiki?</h1>
+			<form class=".query-form">
+				<p>
+					<label for="article">Article:</label>
+				</p>
+				<p>
+					<input type="text" placeholder="Enter an article" id="article"/>
+				</p>
+				<p>
+					<label for="language">Language:</label>
+				</p>
+				<p>
+					<select id="language">
+						<option value="en">English</option>
+						<option value="fr">Francais</option>
+						<option value="es">Español</option>
+						<option value="de">Deutsch</option>
+						<option value="ga">Gaeilge</option>
+						<option value="cn">中文</option>
+						<option value="ja">日本語</option>
+						<option value="ar">العربية</option>
+						<option value="ru">Русский</option>
+						<option value="bg">Български</option>
+					</select>
+				</p>
+				<p>
+					<input type="button" value="Submit" />
+				</p>
+			</form>
+			<div id="table_of_content"></div>
+			<div id="error" style="display: none">This page doesn't exist!</div>
+		</div>
+	</body>
+</html>

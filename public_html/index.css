@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-family: Linux Libertine, Georgia, Times, sherif;
+}
+
+.container {
+	width: 512px;
+}
+
+h1 {
+	border-bottom: 1px solid #a2a9b1;
+}
+
+input[type=button] {
+	border: 1px solid #a2a9b1;
+}
+
+input[type=text], select, input[type=button] {
+	width: 100%;
+	padding: 8px;
+}
+
+a {
+	display: block;
+}
+
+#table_of_content {
+	background-color: rgb(248, 249, 250);
+	border: 1px solid rgb(162, 169, 177);
+	padding: 16px;
+}
+
+a.subtitle {
+	padding-left: 16px;
+}
+
+#error {
+	color: red;
+}
